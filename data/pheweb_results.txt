@@ -1,0 +1,168 @@
+UNIQUE SNPIDs	PheWEB findings		SNPID	Category	Phenotype	P_value	effect_size	SE	Number_of_samples
+rs58091136	None		rs6493543	digestive	"peptic ulcer, site unspecified"	4.70E-05	0.28	0.07	425/399772
+rs2560223	Not found		rs11150498	circulatory	ischemic heart disease	4.40E-05	0.039	0.0095	31952/374655
+rs6493543	Found		rs12596918	circulatory	ischemic heart disease	4.00E-05	0.039	0.0095	31952/374656
+rs4810720	None		rs12596919	circulatory	ischemic heart disease	4.00E-05	0.039	0.0095	31952/374656
+rs34449755	Not found		rs9935163	circulatory	ischemic heart disease	3.90E-05	0.039	0.0095	31952/374656
+rs201850570/rs140270354	None		rs12137998	circulatory	aneurysm of artery of lower extremity	8.03E-05	0.66	0.17	169/398705
+rs66873787	None		rs74640052	circulatory	aneurysm of artery of lower extremity	8.20E-05	0.66	0.17	169/398705
+rs555785	None		rs75339122	circulatory	aneurysm of artery of lower extremity	8.40E-05	0.66	0.37	169/398705
+rs521768	None		rs12403004	circulatory	aneurysm of artery of lower extremity	9.40E-05	0.66	0.17	169/398705
+rs72879253	None		rs12141195	circulatory	aneurysm of artery of lower extremity	9.10E-05	0.66	0.17	169/398705
+rs66721171	None		rs12125695	circulatory	aneurysm of artery of lower extremity	8.70E-05	0.66	0.17	169/398705
+rs10800583	None		rs10919557	circulatory	aneurysm of artery of lower extremity	8.10E-05	0.68	0.17	169/398705
+rs77939461	None		rs12918477	circulatory	ischemic heart disease	6.50E-05	0.038	0.0095	31952/374656
+rs74366894	None		rs1559311	circulatory	ischemic heart disease	6.40E-05	0.039	0.0098	31952/374656
+rs34800651	None		rs1559312	circulatory	ischemic heart disease	8.10E-05	0.038	0.0098	31952/374656
+rs12407767	None		rs1381500	circulatory	ischemic heart disease	4.00E-05	0.039	0.0095	31952/374656
+rs146074237	Not found		rs9933586	circulatory	ischemic heart disease	6.70E-05	0.039	0.0098	31952/374656
+rs650189	None		rs9933935	circulatory	ischemic heart disease	6.20E-05	0.039	0.0098	31952/374656
+rs472174	None		rs2059230	circulatory	ischemic heart disease	6.10E-05	0.039	0.0098	31952/374656
+rs555758	None		rs929847	circulatory	ischemic heart disease	6.60E-05	0.039	0.0098	31952/374656
+rs554858	None		rs929848	circulatory	ischemic heart disease	7.80E-05	0.039	0.0098	31952/374656
+rs521770	None		rs1947715	circulatory	ischemic heart disease	8.90E-05	0.037	0.0095	31952/374656
+rs573436	None		rs12149890	circulatory	ischemic heart disease	3.50E-05	0.039	0.0095	31952/374656
+rs11878128	None		rs12929586	circulatory	ischemic heart disease	3.40E-05	0.039	0.0095	31952/374656
+rs572332	None		rs1462051	circulatory	ischemic heart disease	4.30E-05	0.039	0.0095	31952/374656
+rs11150498	Found								
+rs1585533	Found								
+rs12596918	Found								
+rs12596919	Found								
+rs9935163	Found								
+rs35538485	Not found								
+rs286674	None								
+rs192598	None								
+rs192599	None								
+rs286678	None								
+rs286680	None								
+rs286682	None								
+rs286684	None								
+rs286685	None								
+rs286687	None								
+rs35975706	None								
+rs7184056	None								
+rs1084070	None								
+rs1084071	None								
+rs2609659	None								
+rs7444329	None								
+rs62401303	None								
+rs62401304	None								
+rs9647579	None								
+rs2560230	None								
+rs1462111	None								
+rs2609666	None								
+rs308269	None								
+rs308271	None								
+rs217771	None								
+rs308272	None								
+rs2560240	None								
+rs962514	None								
+rs2560241	None								
+rs2560242	None								
+rs2615177	None								
+rs2615175	None								
+rs300329	None								
+rs1975932	None								
+rs188597	None								
+rs300330	None								
+rs214122	None								
+rs300333	None								
+rs300336	None								
+rs149239	None								
+rs159974	None								
+rs159760	None								
+rs159975	None								
+rs5872307	None								
+rs159976	None								
+rs3028089	Not found								
+rs159977	None								
+rs159969	None								
+rs159971	None								
+rs12137998	Found								
+rs74640052	Found								
+rs75339122	Found								
+rs12403004	Found								
+rs12141195	Found								
+rs12125695	Found								
+rs12127496	None								
+rs12131986	None								
+rs10919557	Found								
+rs12918477	Found								
+rs1559311	Found								
+rs1559312	Found								
+rs1993772	None								
+rs2973150	None								
+rs2974111	None								
+rs2927173	None								
+rs2964811	None								
+rs1462110	None								
+rs2926285	None								
+rs1462124	None								
+rs1462115	None								
+rs4783290	None								
+rs2549141	None								
+rs2615133	None								
+rs1381500	Found								
+rs10020593	None								
+rs6842499	None								
+rs2056279	None								
+rs2056278	None								
+rs10003727	None								
+rs7695409	None								
+rs11734845	None								
+rs2162092	None								
+rs1559699	None								
+rs28673203	None								
+rs2194283	None								
+rs9933586	Found								
+rs9933935	Found								
+rs7201513	None								
+rs2059230	Found								
+rs929846	None								
+rs929847	Found								
+rs929848	Found								
+rs112379822	Not found								
+rs1381541	None								
+rs992713	None								
+rs992714	None								
+rs2244977	None								
+rs3101483	None								
+rs3112531	None								
+rs2926290	None								
+rs2061639	None								
+rs3101481	None								
+rs3112529	None								
+rs2560226	Not found								
+rs34692130	None								
+rs1947715	Found								
+rs7201088	None								
+rs7198913	None								
+rs74421756	None								
+rs6565075	None								
+rs11150507	None								
+rs9931196	None								
+rs12149890	Found								
+rs12929586	Found								
+rs1462051	Found								
+rs182053	None								
+rs197776	None								
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									

@@ -1,0 +1,69 @@
+Variation.ID	Overlapped.Gene	anns
+rs10003727	ANAPC10	non-coding intronic,intronic
+rs10020593	ANAPC10	non-coding intronic
+rs10800583	PTPRC	3downstream,intronic
+rs10919557	PTPRC	intronic
+rs11150498	CDH13	non-coding intronic,intronic
+rs11150507	CDH13	non-coding intronic,intronic
+rs112379822	CDH13	non-coding intronic,intronic
+rs11734845	ANAPC10	3downstream,non-coding intronic,intronic
+rs12125695	PTPRC	intronic
+rs12127496	PTPRC	intronic
+rs12137998	PTPRC	3downstream,intronic
+rs12141195	PTPRC	3downstream,intronic
+rs12149890	CDH13	non-coding intronic,intronic
+rs12225594	NAV2	non-coding intronic,intronic
+rs12403004	PTPRC	3downstream,intronic
+rs12407767	PTPRC	non-coding intronic,intronic
+rs12596918	CDH13	non-coding intronic,intronic
+rs12596919	CDH13	non-coding intronic,intronic
+rs12918477	CDH13	non-coding intronic,intronic
+rs12929586	CDH13	non-coding intronic,intronic
+rs1381500	CDH13	non-coding intronic,intronic
+rs146074237	PTPRC	non-coding intronic,intronic
+rs1462051	CDH13	non-coding intronic,intronic
+rs1559311	CDH13	non-coding intronic,intronic
+rs1559312	CDH13	non-coding intronic,intronic
+rs1559699	ANAPC10	3downstream,non-coding intronic,intronic
+rs1585533	CDH13	non-coding intronic,intronic
+rs192598	CDH13	non-coding intronic,intronic
+rs192599	CDH13	non-coding intronic,intronic
+rs1947715	CDH13	non-coding intronic,intronic
+rs2056278	ANAPC10	non-coding intronic,intronic
+rs2056279	ANAPC10	non-coding intronic,intronic
+rs2059230	CDH13	non-coding intronic,intronic
+rs2162092	ANAPC10	non-coding intronic,intronic
+rs2194283	CDH13	non-coding intronic,intronic
+rs2549141	CDH13	non-coding intronic,intronic
+rs2615133	CDH13	non-coding intronic,intronic
+rs286674	CDH13	non-coding intronic,intronic
+rs286678	CDH13	non-coding intronic,intronic
+rs286680	CDH13	non-coding intronic,intronic
+rs286682	CDH13	non-coding intronic,intronic
+rs286684	CDH13	non-coding intronic,intronic
+rs286685	CDH13	non-coding intronic,intronic
+rs286687	CDH13	non-coding intronic,intronic
+rs28673203	ANAPC10	non-coding intronic,intronic
+rs34800651	PTPRC	non-coding intronic,intronic
+rs35538485	CDH13	non-coding intronic,intronic
+rs35975706	CDH13	non-coding intronic,intronic
+rs4783290	CDH13	non-coding intronic,intronic
+rs6565075	CDH13	non-coding intronic,intronic
+rs6842499	ANAPC10	non-coding intronic
+rs7184056	CDH13	non-coding intronic,intronic
+rs7198913	CDH13	non-coding intronic,intronic
+rs7201088	CDH13	non-coding intronic,intronic
+rs7201513	CDH13	non-coding intronic,intronic
+rs74366894	PTPRC	intronic,5upstream
+rs74421756	CDH13	non-coding intronic,intronic
+rs74640052	PTPRC	intronic
+rs75339122	PTPRC	intronic
+rs7695409	ANAPC10	non-coding intronic,intronic
+rs77939461	PTPRC	intronic,5upstream
+rs929846	CDH13	non-coding intronic,intronic
+rs929847	CDH13	non-coding intronic,intronic
+rs929848	CDH13	non-coding intronic,intronic,3utr
+rs9931196	CDH13	non-coding intronic,intronic
+rs9933586	CDH13	non-coding intronic,intronic
+rs9933935	CDH13	non-coding intronic,intronic
+rs9935163	CDH13	non-coding intronic,intronic

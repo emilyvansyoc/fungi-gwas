@@ -1,0 +1,149 @@
+Variation ID	Chromosome	Position	Overlapped Gene	Type	Annotation	Nearest Upstream Gene	Type of Nearest Upstream Gene	Distance to Nearest Upstream Gene	Nearest Downstream Gene	Type of Nearest Downstream Gene	Distance to Nearest Downstream Gene
+rs10919557	chr1	198675358	PTPRC	protein_coding	intronic	None	None	None	None	None	None
+rs10800583	chr1	198679114	PTPRC	protein_coding	3downstream,intronic	None	None	None	None	None	None
+rs77939461	chr1	198680380	PTPRC	protein_coding	intronic,5upstream	None	None	None	None	None	None
+rs74366894	chr1	198681357	PTPRC	protein_coding	intronic,5upstream	None	None	None	None	None	None
+rs146074237	chr1	198682528	PTPRC	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs34800651	chr1	198687115	PTPRC	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs12407767	chr1	198687125	PTPRC	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs12137998	chr1	198689454	PTPRC	protein_coding	3downstream,intronic	None	None	None	None	None	None
+rs74640052	chr1	198695167	PTPRC	protein_coding	intronic	None	None	None	None	None	None
+rs75339122	chr1	198695208	PTPRC	protein_coding	intronic	None	None	None	None	None	None
+rs12403004	chr1	198705602	PTPRC	protein_coding	3downstream,intronic	None	None	None	None	None	None
+rs12141195	chr1	198706134	PTPRC	protein_coding	3downstream,intronic	None	None	None	None	None	None
+rs12125695	chr1	198709477	PTPRC	protein_coding	intronic	None	None	None	None	None	None
+rs12127496	chr1	198723915	PTPRC	protein_coding	intronic	None	None	None	None	None	None
+rs12131986	chr1	198738371	None	None	None	PTPRC	protein_coding	11826	MIR181A1HG	lincRNA	38251
+rs182053	chr10	83208515	None	None	None	AL356154.1	miRNA	304028	NRG3	protein_coding	426555
+rs197776	chr10	83209349	None	None	None	AL356154.1	miRNA	304862	NRG3	protein_coding	425721
+rs34692130	chr10	83216976	None	None	None	AL356154.1	miRNA	312489	NRG3	protein_coding	418094
+rs12225594	chr11	19820553	NAV2	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs4783290	chr16	82874133	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs2549141	chr16	82875062	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs2615133	chr16	82875192	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs1947715	chr16	82877219	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs2194283	chr16	82877292	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs12149890	chr16	82880057	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs12929586	chr16	82880070	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs1381500	chr16	82880155	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs1462051	chr16	82880341	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs11150498	chr16	82881450	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs1585533	chr16	82882118	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs12596918	chr16	82882831	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs12596919	chr16	82882832	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs9935163	chr16	82882885	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs35538485	chr16	82883832	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs12918477	chr16	82884767	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs286674	chr16	82886096	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs192598	chr16	82886133	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs192599	chr16	82886238	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs286678	chr16	82888446	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs286680	chr16	82889292	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs286682	chr16	82889791	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs286684	chr16	82889936	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs286685	chr16	82890117	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs286687	chr16	82891070	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs35975706	chr16	82891461	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs7198913	chr16	82906638	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs7201088	chr16	82907020	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs7184056	chr16	82907096	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs74421756	chr16	82907669	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs6565075	chr16	82909941	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs11150507	chr16	82911383	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs9931196	chr16	82911789	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs9933586	chr16	82912182	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs9933935	chr16	82912571	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs7201513	chr16	82915109	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs2059230	chr16	82916682	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs929846	chr16	82917603	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs929847	chr16	82917768	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs929848	chr16	82917852	CDH13	protein_coding	non-coding intronic,intronic,3utr	None	None	None	None	None	None
+rs1559311	chr16	82918394	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs1559312	chr16	82918651	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs112379822	chr16	82919072	CDH13	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs650189	chr18	11559815	None	None	None	RP11-712C7.2	pseudogene	6969	RP11-677O4.3	pseudogene	49729
+rs472174	chr18	11564905	None	None	None	RP11-712C7.2	pseudogene	12059	RP11-677O4.3	pseudogene	44639
+rs572332	chr18	11566144	None	None	None	RP11-712C7.2	pseudogene	13298	RP11-677O4.3	pseudogene	43400
+rs66873787	chr18	11572043	None	None	None	RP11-712C7.2	pseudogene	19197	RP11-677O4.3	pseudogene	37501
+rs555785	chr18	11572431	None	None	None	RP11-712C7.2	pseudogene	19585	RP11-677O4.3	pseudogene	37113
+rs555758	chr18	11572436	None	None	None	RP11-712C7.2	pseudogene	19590	RP11-677O4.3	pseudogene	37108
+rs554858	chr18	11572543	None	None	None	RP11-712C7.2	pseudogene	19697	RP11-677O4.3	pseudogene	37001
+rs521770	chr18	11573399	None	None	None	RP11-712C7.2	pseudogene	20553	RP11-677O4.3	pseudogene	36145
+rs521768	chr18	11573400	None	None	None	RP11-712C7.2	pseudogene	20554	RP11-677O4.3	pseudogene	36144
+rs72879253	chr18	11574725	None	None	None	RP11-712C7.2	pseudogene	21879	RP11-677O4.3	pseudogene	34819
+rs573436	chr18	11575225	None	None	None	RP11-712C7.2	pseudogene	22379	RP11-677O4.3	pseudogene	34319
+rs11878128	chr18	11575955	None	None	None	RP11-712C7.2	pseudogene	23109	RP11-677O4.3	pseudogene	33589
+rs66721171	chr18	11576704	None	None	None	RP11-712C7.2	pseudogene	23858	RP11-677O4.3	pseudogene	32840
+rs58091136	chr18	11576979	None	None	None	RP11-712C7.2	pseudogene	24133	RP11-677O4.3	pseudogene	32565
+rs10020593	chr4	145899099	ANAPC10	protein_coding	non-coding intronic	None	None	None	None	None	None
+rs6842499	chr4	145910286	ANAPC10	protein_coding	non-coding intronic	None	None	None	None	None	None
+rs2056279	chr4	145917557	ANAPC10	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs2056278	chr4	145917680	ANAPC10	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs10003727	chr4	145928530	ANAPC10	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs7695409	chr4	145963807	ANAPC10	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs11734845	chr4	145974688	ANAPC10	protein_coding	3downstream,non-coding intronic,intronic	None	None	None	None	None	None
+rs2162092	chr4	145998123	ANAPC10	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs1559699	chr4	146002210	ANAPC10	protein_coding	3downstream,non-coding intronic,intronic	None	None	None	None	None	None
+rs28673203	chr4	146010350	ANAPC10	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+rs10076963	chr5	25658882	None	None	None	CTD-2306M5.1	lincRNA	212848	RNU6-374P	snRNA	42444
+rs992268	chr5	25671856	None	None	None	CTD-2306M5.1	lincRNA	225822	RNU6-374P	snRNA	29470
+rs6879769	chr5	122627621	None	None	None	CTD-2347I17.1	pseudogene	55557	CEP120	protein_coding	52958
+rs1381541	chr5	152618066	None	None	None	AC091969.1	lincRNA	14963	GRIA1	protein_coding	251109
+rs992713	chr5	152619363	None	None	None	AC091969.1	lincRNA	16260	GRIA1	protein_coding	249812
+rs992714	chr5	152619427	None	None	None	AC091969.1	lincRNA	16324	GRIA1	protein_coding	249748
+rs2244977	chr5	152621660	None	None	None	AC091969.1	lincRNA	18557	GRIA1	protein_coding	247515
+rs3101483	chr5	152624817	None	None	None	AC091969.1	lincRNA	21714	GRIA1	protein_coding	244358
+rs3112531	chr5	152625541	None	None	None	AC091969.1	lincRNA	22438	GRIA1	protein_coding	243634
+rs2926290	chr5	152626704	None	None	None	AC091969.1	lincRNA	23601	GRIA1	protein_coding	242471
+rs2061639	chr5	152638359	None	None	None	AC091969.1	lincRNA	35256	GRIA1	protein_coding	230816
+rs1993772	chr5	152640424	None	None	None	AC091969.1	lincRNA	37321	GRIA1	protein_coding	228751
+rs3101481	chr5	152640777	None	None	None	AC091969.1	lincRNA	37674	GRIA1	protein_coding	228398
+rs3112529	chr5	152641447	None	None	None	AC091969.1	lincRNA	38344	GRIA1	protein_coding	227728
+rs2973150	chr5	152647415	None	None	None	AC091969.1	lincRNA	44312	GRIA1	protein_coding	221760
+rs2974111	chr5	152650382	None	None	None	AC091969.1	lincRNA	47279	GRIA1	protein_coding	218793
+rs2927173	chr5	152650546	None	None	None	AC091969.1	lincRNA	47443	GRIA1	protein_coding	218629
+rs2964811	chr5	152650598	None	None	None	AC091969.1	lincRNA	47495	GRIA1	protein_coding	218577
+rs1462110	chr5	152652746	None	None	None	AC091969.1	lincRNA	49643	GRIA1	protein_coding	216429
+rs2926285	chr5	152654387	None	None	None	AC091969.1	lincRNA	51284	GRIA1	protein_coding	214788
+rs1462124	chr5	152658792	None	None	None	AC091969.1	lincRNA	55689	GRIA1	protein_coding	210383
+rs1084070	chr5	152666446	None	None	None	AC091969.1	lincRNA	63343	GRIA1	protein_coding	202729
+rs1084071	chr5	152666521	None	None	None	AC091969.1	lincRNA	63418	GRIA1	protein_coding	202654
+rs2609659	chr5	152669359	None	None	None	AC091969.1	lincRNA	66256	GRIA1	protein_coding	199816
+rs7444329	chr5	152670867	None	None	None	AC091969.1	lincRNA	67764	GRIA1	protein_coding	198308
+rs62401303	chr5	152671513	None	None	None	AC091969.1	lincRNA	68410	GRIA1	protein_coding	197662
+rs62401304	chr5	152671618	None	None	None	AC091969.1	lincRNA	68515	GRIA1	protein_coding	197557
+rs2560223	chr5	152676339	None	None	None	AC091969.1	lincRNA	73236	GRIA1	protein_coding	192836
+rs2560226	chr5	152676590	None	None	None	AC091969.1	lincRNA	73487	GRIA1	protein_coding	192585
+rs9647579	chr5	152677089	None	None	None	AC091969.1	lincRNA	73986	GRIA1	protein_coding	192086
+rs2560230	chr5	152678034	None	None	None	AC091969.1	lincRNA	74931	GRIA1	protein_coding	191141
+rs1462111	chr5	152678321	None	None	None	AC091969.1	lincRNA	75218	GRIA1	protein_coding	190854
+rs2609666	chr5	152679666	None	None	None	AC091969.1	lincRNA	76563	GRIA1	protein_coding	189509
+rs308269	chr5	152685952	None	None	None	AC091969.1	lincRNA	82849	GRIA1	protein_coding	183223
+rs308271	chr5	152688178	None	None	None	AC091969.1	lincRNA	85075	GRIA1	protein_coding	180997
+rs217771	chr5	152688433	None	None	None	AC091969.1	lincRNA	85330	GRIA1	protein_coding	180742
+rs308272	chr5	152688885	None	None	None	AC091969.1	lincRNA	85782	GRIA1	protein_coding	180290
+rs2560240	chr5	152691381	None	None	None	AC091969.1	lincRNA	88278	GRIA1	protein_coding	177794
+rs1462115	chr5	152693433	None	None	None	AC091969.1	lincRNA	90330	GRIA1	protein_coding	175742
+rs962514	chr5	152694849	None	None	None	AC091969.1	lincRNA	91746	GRIA1	protein_coding	174326
+rs2560241	chr5	152699105	None	None	None	AC091969.1	lincRNA	96002	GRIA1	protein_coding	170070
+rs2560242	chr5	152699481	None	None	None	AC091969.1	lincRNA	96378	GRIA1	protein_coding	169694
+rs2615177	chr5	152700771	None	None	None	AC091969.1	lincRNA	97668	GRIA1	protein_coding	168404
+rs2615175	chr5	152701810	None	None	None	AC091969.1	lincRNA	98707	GRIA1	protein_coding	167365
+rs300329	chr5	152702949	None	None	None	AC091969.1	lincRNA	99846	GRIA1	protein_coding	166226
+rs1975932	chr5	152712912	None	None	None	AC091969.1	lincRNA	109809	GRIA1	protein_coding	156263
+rs188597	chr5	152721944	None	None	None	AC091969.1	lincRNA	118841	GRIA1	protein_coding	147231
+rs300330	chr5	152722723	None	None	None	AC091969.1	lincRNA	119620	GRIA1	protein_coding	146452
+rs214122	chr5	152722768	None	None	None	AC091969.1	lincRNA	119665	GRIA1	protein_coding	146407
+rs300333	chr5	152723370	None	None	None	AC091969.1	lincRNA	120267	GRIA1	protein_coding	145805
+rs300336	chr5	152723934	None	None	None	AC091969.1	lincRNA	120831	GRIA1	protein_coding	145241
+rs149239	chr5	152724438	None	None	None	AC091969.1	lincRNA	121335	GRIA1	protein_coding	144737
+rs159974	chr5	152725480	None	None	None	AC091969.1	lincRNA	122377	GRIA1	protein_coding	143695
+rs159760	chr5	152725798	None	None	None	AC091969.1	lincRNA	122695	GRIA1	protein_coding	143377
+rs159975	chr5	152726383	None	None	None	AC091969.1	lincRNA	123280	GRIA1	protein_coding	142792
+rs5872307	chr5	152726772	None	None	None	AC091969.1	lincRNA	123669	GRIA1	protein_coding	142403
+rs159976	chr5	152727066	None	None	None	AC091969.1	lincRNA	123963	GRIA1	protein_coding	142109
+rs3028089	chr5	152727415	None	None	None	AC091969.1	lincRNA	124312	GRIA1	protein_coding	141760
+rs159977	chr5	152728116	None	None	None	AC091969.1	lincRNA	125013	GRIA1	protein_coding	141059
+rs159969	chr5	152730055	None	None	None	AC091969.1	lincRNA	126952	GRIA1	protein_coding	139120
+rs159971	chr5	152731665	None	None	None	AC091969.1	lincRNA	128562	GRIA1	protein_coding	137510
+rs273084	chr5	174991239	None	None	None	SFXN1	protein_coding	34494	RN7SKP148	misc_RNA	63952
