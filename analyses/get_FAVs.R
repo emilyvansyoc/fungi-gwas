@@ -9,14 +9,14 @@ library(ggpubr)
 #library(microViz)
 #library(cowplot)
 
-# set pathway to output files
-path <- "gwas-out/updateITS_results_allsnp_allvariant/"
-
+# set pathway to output files (restricted data)
+path <- "restricted/updateITS_results_allsnp_allvariant/"
+### all files are read in, concatenated, and saved as the below RData object
 
 ### ---- get effect sizes ----
 
-# get effect sizes
-load("R/gwas-output/effectsizes_allSNP_allvariants_alltaxa.RData")
+# get effect sizes (restricted data, not shared) - also huge
+load("restricted/effectsizes_allSNP_allvariants_alltaxa.RData")
 
 ### 11/2024; get FAVs at each significance level (exploratory, genome-wide, study-wide) and combine into one dataset
 #### remove Saccharomycetes Class from these tallies because it is identical to the Saccharomycetales Order
@@ -78,12 +78,12 @@ newsigs <- allsigs %>%
   arrange(P) %>% ungroup()
 
 # save
-save(newsigs, file = "R/gwas-output/Nov2024/Nov2024_sigs_SNPandStructural.RData")
+save(newsigs, file = "data/Nov2024_sigs_SNPandStructural.RData")
 
 # get just the FAVs
 fav <- newsigs %>% ungroup() %>% dplyr::select(ID) %>% distinct()
-write.table(fav, file = "R/gwas-output/Nov2024/unique_FAVs.txt", sep = "\t", row.names = FALSE)
+write.table(fav, file = "data/unique_FAVs.txt", sep = "\t", row.names = FALSE)
 
 # format for SNPNexus
 nex <- fav %>% mutate(Type = "dbsnp") %>% rename(Name = ID) %>% relocate(Type)
-write.table(nex, file = "R/gwas-output/Nov2024/unique_FAVs_forSNPNexus.txt", sep = "\t", row.names = FALSE, quote = FALSE)
+write.table(nex, file = "data/unique_FAVs_forSNPNexus.txt", sep = "\t", row.names = FALSE, quote = FALSE)

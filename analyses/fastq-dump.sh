@@ -28,7 +28,7 @@ QUALDIR=$3
 mkdir -p $OUTDIR
 
 # fastq-dump
-cat $RUNIDS | head -50 | parallel /Users/epb5360/bin/sratoolkit.3.0.0-mac64/bin/fastq-dump {} --outdir $OUTDIR
+cat $RUNIDS | head -50 | parallel fastq-dump {} --outdir $OUTDIR
 
 echo "read dump complete"
 
@@ -41,7 +41,7 @@ mkdir -p $QUALDIR
 cat $RUNIDS | head -50 | parallel fastqc $OUTDIR/{}_1.fastq -o $QUALDIR -q 
 
 # run fastqc on reverse reads 
-#cat $RUNIDS | head -50 | parallel fastqc $OUTDIR/{}_2.fastq -o $QUALDIR
+cat $RUNIDS | head -50 | parallel fastqc $OUTDIR/{}_2.fastq -o $QUALDIR
 
 # run multiqc on all reads
 multiqc $QUALDIR* -o $QUALDIR -n rawreads.multiqc
