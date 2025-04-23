@@ -21,3 +21,16 @@ The script `plink-code.sh` runs the basic steps of GWAS using Human Microbiome D
 2. `SNPNexus.R` parses the results from SNP annotation done through SNPNexus web browser  
 3. `GTEx.R` fetches FAV-eQTLs using the lookup table from GTEx v10  
 4. `phewas.R` parses the PheWEB results from a text file (FAVs were searched in the PheWEB database and top hits pulled by hand - strongly do not recommend but no code-able options) and performs a validation analysis using the ieugwasr R package  
+5. `MR.R` performs Mendelian Randomization using the Two-Sample MR package  
+6. `all_Kazachstania.R` takes the phyloseq objects of ITS data from public datasets (see Re-analysis of public ITS data below) and does PERMANOVA on each, then plots (creates Figure S4)  
+
+### Figure generation 
+1. `Figure1.R`  
+2. `Figure2.R`  
+3. `Figure3.R`  (includes minor stats for Kazachstania comparisons)  
+
+### Re-analysis of public ITS data  
+
+The script `my-its-pipeline.sh` in the folder `ITS_reanalysis` takes a Bioproject accession number and prefix of Biosample runs (i.e., "SRR" for American data, "ERR" for data uploaded to the European Nucleotide Archive that is also hosted on SRA). The pipeline then retrieves the data from SRA, runs primer removal if a fasta file of primer sequences is supplied, and then runs the standard VSEARCH pipeline for quality control, OTU clustering, and taxonomic assignment on a user-supplied database. It finally runs an Rscript to convert VSEARCH output into a phyloseq object and writes an R data file. This relies on a micromamba environment but can be replaced with any conda environment with the necessary softwares, or running without conda assuming that each software is accessible in PATH.  
+The other scripts in this folder are called by the main 'my-its-pipeline.sh' script. 
+*Note: this is currently set up to use only paired-end data and will fail if single-end data is supplied*
