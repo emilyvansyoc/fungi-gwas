@@ -6,8 +6,8 @@ library(tidyverse)
 library(arrow) # to read in v10 parquet files
 
 # get FAVs
-ids <- read.table("R/gwas-output/Nov2024/unique_FAVs.txt", header = TRUE)
-load("R/gwas-output/Nov2024/Nov2024_sigs_SNPandStructural.RData")
+ids <- read.table("data/unique_FAVs.txt", header = TRUE)
+load("data/Nov2024_sigs_SNPandStructural.RData")
 sigs <- newsigs %>% mutate(chr = paste0("chr", X.CHROM))
 
 ## ----- convert rsIDs into b38 genomic coordinates -----
@@ -46,33 +46,31 @@ length(unique(m1$variant_id)) # 144
 # get "flipped" positions to match gtex
 m1 <- m1 %>% 
   mutate(myvariant_id_b37_correctorder = if_else(matches == "perfect", myvariant_id_b37, pos.flip))
-# save this to restart session; limited memory with large dataframes below
-save(m1, file = "R/gwas-output/Nov2024/Nov2024_sigFAVs_forGTEx.RData")
 
 #### ---- get GTEx data ----
 
 ## search for presence of these SNPs in the GTEx data
 # downloaded from: https://gtexportal.org/home/downloads/adult-gtex/qtl
 ### 1/2/2025 update - use recently released v10
+### NOT shared on Github since this is publicly available and big
 
 ## get list of significant eQTL-variant pairs
 outdf1 <- data.frame()
-mypath <- "R/gwas-output/Nov2024/GTEx_v10/GTEx_Analysis_v10_eQTL_updated"
+mypath <- "path/GTEx_v10/GTEx_Analysis_v10_eQTL_updated"
 myfi <- list.files(mypath, pattern = "*signif*", full.names = TRUE)
 for(i in 1:length(myfi)) {
   cat("working on", i, "of", length(myfi), "\n")
   fi <- read_parquet(myfi[i])
-  fi$tissue <- str_remove(myfi[i], "R/gwas-output/Nov2024/GTEx_v10/GTEx_Analysis_v10_eQTL_updated/")
+  fi$tissue <- str_remove(myfi[i], "path/GTEx_v10/GTEx_Analysis_v10_eQTL_updated/")
   fi$tissue <- str_remove(fi$tissue, ".v10.eQTLs.signif_pairs.parquet")
   outdf1 <- rbind(outdf1, fi)
 }
 # save 
-save(outdf1, file = "R/gwas-output/Nov2024/Nov2024_GTEx_sigSNPs_fromLUtable_v10.RData")
+save(outdf1, file = "path/Nov2024_GTEx_sigSNPs_fromLUtable_v10.RData")
 
 
 #### ---- get eQTLs for significant snps ----
 
-load("R/gwas-output/Nov2024/Nov2024_sigFAVs_forGTEx.RData")
 
 eqtl <- outdf1 %>% filter(variant_id %in% m1$variant_id) 
 # IN V10; 102 (82 unique variants) - 5 unique tissues including liver 
@@ -84,8 +82,8 @@ eqtl1 <- eqtl %>% full_join(m1, relationship = "many-to-many")
 length(unique(eqtl$variant_id[!is.na(eqtl$gene_id)])) # 82 unique variants
 
 # save
-save(eqtl, file = "R/gwas-output/Nov2024//Nov2024_GTEx_sigSNPs_fromLUtable_v10.RData")
-save(eqtl1, file = "R/gwas-output/Nov2024//Nov2024_GTEx_allFAVs_v10.RData")
+save(eqtl, file = "data/Nov2024_GTEx_sigSNPs_fromLUtable_v10.RData")
+save(eqtl1, file = "data/Nov2024_GTEx_allFAVs_v10.RData")
 
 ## ---- investigate eQTLs ----
 
@@ -94,7 +92,7 @@ unique(eqtl$gene_id) # 5 genes; in v10, now 7 genes
 unique(eqtl$tissue) # three tissues; in v10, now 6 tissues
 
 ### which taxa are these associated with?
-load("R/gwas-output/Nov2024/Nov2024_sigs_SNPandStructural.RData")
+load("data/Nov2024_sigs_SNPandStructural.RData")
 
 # get sigs and fungal taxa
 sigIDs <- unique(eqtl1$rs_id_dbSNP151_GRCh38p7[!is.na(eqtl1$gene_id)])
@@ -127,10 +125,10 @@ full %>% group_by(taxa, gene_name, tissue) %>% count()
 # Kaz remains the only taxa with eQTLs in multiple genes/tissues (4 different genes)
 
 # save
-save(full, file = "R/gwas-output/Nov2024/Nov2024_GTEx_fullFAVResults_v10.RData")
+save(full, file = "data/Nov2024_GTEx_fullFAVResults_v10.RData")
 # save for supplementary table
 forsupp <- full %>% dplyr::select(gene_id, gene_name, rs_id_dbSNP151_GRCh38p7, tissue, variant_id, ref, alt, tss_distance, af, pval_nominal, slope)
-write.table(forsupp, file = "R/gwas-output/Nov2024/results_GTEx_forSupplementary.txt", sep = "\t", row.names = FALSE)
+write.table(forsupp, file = "data/results_GTEx_forSupplementary.txt", sep = "\t", row.names = FALSE)
 
 # how many variants are associated with more than one gene?
 multis <- full %>% group_by(variant_id) %>% count() %>% filter(n>1) # 10 are associated with all 3 genes; all in same genomic region
@@ -139,7 +137,7 @@ full %>% filter(variant_id %in% multis$variant_id) %>% group_by(taxa, gene_name)
 ## ---- which eQTLs are also overlapping the gene of interest? ----
 
 # get SNPNexus results
-genes <- read.table("R/gwas-output/Nov2024/SNPNexus_results/near_gens_allSNPNov2024.txt", sep = "\t", header = TRUE)
+genes <- read.table("data/SNPNexus_results/near_gens_allSNPNov2024.txt", sep = "\t", header = TRUE)
 
 # filter and join
 overlap <- full %>% inner_join(genes, by = c("rs_id_dbSNP151_GRCh38p7" = "Variation.ID", "gene_name" = "Overlapped.Gene")) %>% 

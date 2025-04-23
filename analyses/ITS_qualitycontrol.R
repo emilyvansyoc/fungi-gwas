@@ -7,7 +7,7 @@ library(ShortRead)
 library(Biostrings)
 library(phyloseq)
 
-# set pathway
+# set pathway - this is a dummy pathway (raw files not provided in Github)
 path <- "path-to-raw-files/"
 list.files(path)
 # how many total?
@@ -16,7 +16,8 @@ length(list.files(path, pattern = "_1.fastq")) # 390 total
 ## ---- remove 18S samples ----
 
 # get list of 18S samples to remove 
-its <- readxl::read_xlsx("/SRAMetadata_Nash2017_PRJNA356769.xlsx") %>% 
+# this is the default SRA metadata file
+its <- read.table("mypath/SRAMetadata_Nash2017_PRJNA356769.txt", sep = "\t", header = TRUE) %>% 
   filter(str_detect(`Library Name`, "ITS")) %>% 
   # jankify
   mutate(full = paste0("/path//", Run, "_1.fastq")) %>% 

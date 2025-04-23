@@ -1,5 +1,7 @@
 # fungi-gwas
-Code for analyses and figures for Van Syoc et al, under review
+Code for analyses and figures for Van Syoc et al, under review.  
+
+NOTE that most data cannot be shared due to genomics data sharing restrictions. Throughout each analysis script, restricted data is marked with the dummy pathfile "/restricted/". Otherwise, most scripts are fully reproducible and executed by cloning the repository to a local machine and running the scripts. (With the caveat that conda environment YAML files are not currently shared; a conda environment can be created with the softwares installed with default mechanisms. No special software versions were used in these analyses)
 
 ## Analyses 
 
@@ -17,4 +19,5 @@ The script `plink-code.sh` runs the basic steps of GWAS using Human Microbiome D
 
 1. `get_FAVs.R` loads an RData object of all combined GWAS results (giant!) and gets FAVs at various significance levels  
 2. `SNPNexus.R` parses the results from SNP annotation done through SNPNexus web browser  
-3. `GTEx.R` fetches FAV-eQTLs using the lookup table from GTEx v10
+3. `GTEx.R` fetches FAV-eQTLs using the lookup table from GTEx v10  
+4. `phewas.R` parses the PheWEB results from a text file (FAVs were searched in the PheWEB database and top hits pulled by hand - strongly do not recommend but no code-able options) and performs a validation analysis using the ieugwasr R package  

@@ -3,14 +3,15 @@
 
 library(tidyverse)
 
+### these results are from running SNPNexus in the web browser
 # get results
-df <- read.table("R/gwas-output/Nov2024/SNPNexus_results/allSNPNov2024_pervariant.tsv", sep = "\t", header = TRUE)
+df <- read.table("data/SNPNexus_results/allSNPNov2024_pervariant.tsv", sep = "\t", header = TRUE)
 
 # get genomic coordinates with mine
-coords <- read.table("R/gwas-output/Nov2024/SNPNexus_results/gen_coords_allSNPNov2024.txt", sep = "\t", header = TRUE)
+coords <- read.table("data/SNPNexus_results/gen_coords_allSNPNov2024.txt", sep = "\t", header = TRUE)
 
 # get my genomic coords
-load("R/gwas-output/Nov2024/Nov2024_sigs_SNPandStructural.RData")
+load("data/Nov2024_sigs_SNPandStructural.RData")
 
 # match
 both <- coords %>% 
@@ -39,7 +40,7 @@ nom %>% filter(REF.Allele == REF) %>% View()
 ## ---- get overlapped genes ----
 
 # get data
-genes <- read.table("R/gwas-output/Nov2024/SNPNexus_results/near_gens_allSNPNov2024.txt", sep = "\t", header = TRUE)
+genes <- read.table("data/SNPNexus_results/near_gens_allSNPNov2024.txt", sep = "\t", header = TRUE)
 
 # get overlapped genes
 unique(genes$Overlapped.Gene) # NAV2 is new 
@@ -71,7 +72,7 @@ genecol <- genes %>%
   summarize(anns = paste(Annotation, sep = ",")) %>% 
   filter(!Overlapped.Gene == "None")
 length(unique(genecol$Variation.ID))
-write.table(genecol, file = "R/gwas-output/Nov2024/results_SNPnexus_overlappedgenes_annotations.txt", sep = "\t", row.names = FALSE, quote = FALSE)
+write.table(genecol, file = "data/results_SNPnexus_overlappedgenes_annotations.txt", sep = "\t", row.names = FALSE, quote = FALSE)
 
 # get fungal taxa associated with these genes
 #load("R/gwas-output/Nov2024/Nov2024_sigs_SNPandStructural.RData")
@@ -81,5 +82,5 @@ genetax %>% group_by(Overlapped.Gene, taxa) %>% count()
 
 ## ---- get ensembl ----
 
-ens <- read.table("R/gwas-output/Nov2024/SNPNexus_results/ensembl_allSNPNov2024.txt", sep = "\t", header = TRUE)
+ens <- read.table("data/SNPNexus_results/ensembl_allSNPNov2024.txt", sep = "\t", header = TRUE)
 unique(ens$Predicted.Function) # all are noncoding
