@@ -1,6 +1,8 @@
 # fungi-gwas
 Code for analyses and figures for Van Syoc et al, under review.  
 
+[![DOI](https://zenodo.org/badge/923057498.svg)](https://doi.org/10.5281/zenodo.15659049)
+
 NOTE that most data cannot be shared due to genomics data sharing restrictions. Throughout each analysis script, restricted data is marked with the dummy pathfile "/restricted/". Otherwise, most scripts are fully reproducible and executed by cloning the repository to a local machine and running the scripts. (With the caveat that conda environment YAML files are not currently shared; a conda environment can be created with the softwares installed with default mechanisms. No special software versions were used in these analyses)
 
 ## Analyses 
