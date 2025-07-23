@@ -30,7 +30,7 @@ The script `plink-code.sh` runs the basic steps of GWAS using Human Microbiome D
 1. `Figure1.R`  
 2. `Figure2.R`  
 3. `Figure3.R`  (includes minor stats for Kazachstania comparisons) 
-4-6. Supplementary Figures: S1-S3
+4-7. Supplementary Figures: S1-S4
 
 ### Re-analysis of public ITS data  
 
